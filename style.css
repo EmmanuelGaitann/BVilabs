@@ -14,15 +14,6 @@ header img{
    font-size: 100%;
    font-weight:700;
 }
-.btn{
-    color:white;
-    width: 120px;
-    height: 40px;
-    border-radius: 12px;
-    background-color: rgb(0,36,156);
-    border:1px solid rgb(0,36,156);
-    cursor: pointer;
-}
 .s{position:relative;
    top:30px;
    left:45%;
@@ -98,6 +89,16 @@ header{
     border-radius:20px;
     line-height:15px;
 }
+.btn{
+    color:white;
+    width: 120px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(0,36,156);
+    border:1px solid rgb(0,36,156);
+    cursor: pointer;
+   font-size:10px;
+}
 .contener-1 h3{
     color:rgb(62, 72, 82);
     font-weight:500;
@@ -142,3 +143,147 @@ header{
 }.about label{
    font-weight:200;
 }
+@media screen and (max-width: 900px) {
+
+    header img{
+       width:auto;
+       height:150%;
+    }
+    .ss{margin-left:1px;
+        margin-right:5px;
+       padding:3px;
+        color:white;
+       background-color:rgb(1,151,167);
+       border-radius:10px;
+       font-size: 80%;
+       font-weight:700;
+    }
+    .btn{
+        color:white;
+        width: 80px;
+        height: 30px;
+        border-radius: 12px;
+        background-color: rgb(0,36,156);
+        border:1px solid rgb(0,36,156);
+        cursor: pointer;
+    }
+    .s{position:relative;
+       top:30px;
+       left:35%;
+       background-color:rgb(1,151,167);
+        width:100px;
+        height:100px;
+       border-radius:20px;
+       font-size: 400%;
+       font-weight:700;
+    }
+    .btn-1{
+        color:rgb(0,36,156);
+        width: 150px;
+        height: 35px;
+        background-color:white;
+        border-radius: 12px;
+        border:1px solid rgb(0,36,156);
+        cursor: pointer;
+    }
+    header{
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        width: auto;
+        height: 20px;
+    }
+    .header{
+        background-color:rgb(0,36,156);
+        width:100%;
+        height:400px;
+        color: white;
+        text-align:center;
+    }
+    .header h1{
+        padding-top:30px;
+        font-weight: 510;
+    }
+    .header p{
+        padding-top:40px;
+    }
+    
+    .do{
+        position:relative;
+        top:-100px;
+        left:10%;
+        background-color: rgb(18,40,114);
+        width: 80%;
+        height: 300px;
+        border-radius:30px;
+    }
+    .do img{
+       position:relative;
+       left:30%;
+        background-color:rgb(218,226,234);
+        width: 50px;
+        height: 50px;;
+        border:1px solid white;
+        border-radius: 50px;
+        }
+    .do .btn{
+       position:relative;
+       left:30%;
+    }
+    .content{
+        display:flex;
+        justify-content:center;
+    }
+    .do-1{
+       font-size:10px;
+        background-color: #fff;
+        padding:10px;
+       width:;
+        height:170px;
+        border-radius:20px;
+        line-height:10px;
+    }
+    .contener-1 h3{
+        color:rgb(62, 72, 82);
+        font-weight:500;
+        text-align:center;
+    }
+    .contener-1 p{
+        color:rgb(109, 127, 144);
+    }
+    .contener-1{display:flex;
+                padding:25px;
+               justify-content:space-around;}
+    
+    .about{
+       border-radius:22px;
+        display:grid;
+        border:rgba(109, 127, 144, 0.556) 1px solid;
+        padding:10px;
+        width:80%;
+       height:500px;
+       line-height:30px;
+        
+    }
+    .about input{
+       margin:8px;
+       width:250px;
+       padding:20px;
+       color: rgba(109, 127, 144);
+       border-bottom: 1px solid #e3e3e3;
+    }
+    .about button{
+        color:rgb(0,36,156);
+       position:relative;
+       bottom:-05px;
+       left:220px;
+        width: 70px;
+        height: 30px;
+        background-color:white;
+        border-radius: 7px;
+        border:1px solid rgb(0,36,156);
+        cursor: pointer;
+    }.about label{
+       font-weight:200;
+    }
+  }
